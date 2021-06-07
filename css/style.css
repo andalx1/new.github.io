@@ -1,0 +1,49 @@
+ body {
+   padding: 50px;
+   color: white;
+   background-color: black;
+ }
+ header {
+      text-align: center;
+      font-family: 'Indie Flower', cursive;
+      max-width: 800px;
+      min-height: 130px;
+      background: #D5BF31;
+      margin: 0 auto;
+      border-radius: 20px ;
+      box-shadow: 5px 5px 5px rgb(146, 105, 151);
+
+    }
+    footer {
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Indie Flower', cursive;
+      max-width: 800px;
+      min-height: 130px;
+      background:#D5BF31;
+      margin: 0 auto;
+      border-radius: 20px ;
+      box-shadow: 5px 5px 5px rgb(146, 105, 151);
+    }
+    .foto { 
+      float: right;
+      width: 170px;
+      margin-top: 170px;
+      box-shadow: 5px 5px 5px rgb(146, 105, 151);
+      border-radius: 7px ;
+      
+    }
+    
+    .links {
+      max-width: 600px;
+      min-height: 130px;
+      border: 1px;
+      padding: 0 1rem;
+      margin: 0 auto;
+    }
+    .links {
+      font-family: 'Krona One', sans-serif;
+    }
+    .name {
+      text-align: center;
+    }
