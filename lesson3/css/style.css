@@ -1,0 +1,64 @@
+
+html{
+    background-color: white;
+}
+h1, h2, h3, h4 {
+  font-family: 'Titillium Web', sans-serif;
+}
+.pic1 {
+  display:block;
+  margin:auto;
+  width: 3
+  0%;
+  height: auto;
+}
+.pic {
+    display:block;
+    margin:auto;
+    width: 80%;
+    height: auto;
+}
+body {
+    max-width:1200px;
+    background-color: #FFF8DC;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 0px ;
+    padding: 15px;
+}
+.topnav {
+    background-color: #A52A2A;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  footer {
+	border: 1px solid #333;
+	box-shadow: 0 0 10px #000;
+    text-align: center;
+    background-color: #A52A2A;
+    font-size: 20px;
+    color: cornsilk;
+}
