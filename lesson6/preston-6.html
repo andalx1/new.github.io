@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnyguide 6</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Saturday = Preston Pancakes in the park! &#129374</h1>
+        <p> <em>9:00 a.m.</em> " Saturday at the city park pavillon."</p>
+    </div>
+    
+    <header>
+        <img class= pic1 src="images/logo2.png"/>
+        <div class="headings">
+        <h1>SUNNYGUIDE</h1>
+        <div class="moto">We always give the best advice</div>
+        </div>
+        <button onclick="toggleMenu()"></button>
+    </header>
+
+    <nav class="topnav">
+        <div>
+            <a class= "active" href="#">Home</a></li>
+            <a href="#">Preston</a></li>
+            <a href="#">Soda Springs</a></li>
+            <a href="#">Fish Haven</a></li> 
+            <a href="#">Storm Center</a></li>
+            <a href="#">Gallery</a></li>   
+        </div>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+
+        <div class= 'landscape'>
+            <picture>
+                <img src="images/landscape1.jpg" alt="Hero image"/>
+                <source media="(max-width:360px)" srcset="images/landscape1360.jpg"/>
+                <source media="(max-width:720px)" srcset="images/landscape1720.jpg"/>
+            </picture>
+            
+            <div class= "summary">
+                <h2 class= "sta">Summary</h2>
+                <p>Humidity: <span id="">22%</span></p>
+                <p>Wind: <span id="age">13 Km/h</span></p>
+                <p>rain prob.: <span id="">2%</span></p>
+                <p>Temperature: <span id="">63° F</span></p>
+                <p><span id="">Sunny</span></p>
+            </div>
+        </div>
+
+        <h2>Five day forecast</h2>
+
+        <div> <img class= "fived" src="images/5day.jpg"/> </div>
+
+        <div class= 'art'>
+            <img src="images/sky.jpg"/>
+            <div>
+                <h3>Article Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, delectus labore blanditiis quod optio nostrum corporis. Officia itaque quibusdam 
+                consequatur iste voluptatibus, placeat, totam veniam eos laborum harum aperiam magni? 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, delectus labore blanditiis quod optio nostrum corporis. 
+                Officia itaque quibusdam consequatur iste voluptatibus, placeat, totam veniam eos laborum harum aperiam magni
+                quatur iste voluptatibus, placeat, totam veniam eos laborum harum aperiam magni? 
+                itaque quibusdam consequatur iste voluptatibus, placeat, totam veniam eos laborum harum aperiam magni.</p>
+            </div>
+        </div>
+
+    </main>
+        <footer>
+            <div class= 'footinf'>
+                <div class="contact">
+                    <h2>CONTACT INFORMATION</h2>
+                    <p>
+                        &#127826 11 S 1st W StPreston, ID 83263<br>
+                        &#128222 305 354 72 20<br>
+                        &#128235 customerservice@sunnyguide.org
+                    </p>
+                </div> 
+                
+                <div class="social">
+                    <a href="#">
+                        <img src="images/facebook1.png" alt="Facebook">
+                    </a>
+                    <a href="#">
+                        <img src="images/instagram.png" alt="Facebook">
+                    </a>
+                    <a href="#">
+                        <img src="images/tweter.png" alt="Facebook">
+                    </a>
+                </div>  
+
+                <div>
+                    <p>&copy; 2021 | Andres Benavides | Medellin, Colombia | <a href="https://www.byui.edu/online">https://www.byui.edu/online</a></p>
+                    <p>Last Modified: <span id="lastmod"></span></p>
+                </div>
+            </div>
+            
+            <div>
+                <img src="images/map.png"/>
+            </div>
+        </footer>     
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
