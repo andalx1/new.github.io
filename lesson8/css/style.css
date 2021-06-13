@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+table{
+    border: 1px solid white;
+    margin: auto;
+    padding: 0;
+    border-spacing: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 30px;
+}
+table tr{
+    border: 1px solid white;
+    padding: 5px;
+}
+table td, table th{
+    padding: 10px;
+    text-align: center;
+    border:2px white;
+}
+table th{
+    background: rgb(94, 132, 168);
+    color: white;
+    border: white;
+}
+thead, tfoot {
+    background: rgb(98, 154, 187);
+}
+thead td{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.colored{
+    background: rgb(98, 154, 187);
+}
+
+  :root {
+    --line1: #e7f0ed;
+    --line2: #e7ffed;
+    --blue: #628ca6;
+    --green: #7fb9c2;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: var(--line1);
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: var(--line2);
+  }
+  
