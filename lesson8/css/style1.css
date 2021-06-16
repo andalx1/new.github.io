@@ -7,8 +7,6 @@ body {
   }
   header {
     width: 100%;
-    margin: auto;
-    text-align: center;
     font-family: 'Kanit', sans-serif;
     color: rgb(120, 167, 27);
   }
@@ -40,17 +38,27 @@ body {
      list-style: none;
  }
   header nav ul li{
-      float: left;
+      float:auto;
   }
  
- header nav ul li a {
+ header nav ul li {
       color:rgb(255, 188, 4);
       padding: 20px;
-      display: block;
-      text-decoration: none;      
+      display: inline-block;    
   }
 
-
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+header nav ul li a:hover{
+    background: #e7a821;
+    padding:20px;  
+}
+.mymenu a.active {
+    background-color: #e7a821;
+    padding: 20px;
+  }
     
   
  
@@ -94,32 +102,8 @@ footer {
 
 
 @media screen and (max-width: 576px) {
-    .topnav{
-        display: block;
-    }
+  
 
-    main {
-        max-width: 95%;
-    }
-    main p{
-        font-size: 1rem;
-      }
-      main h1{
-          font-size: 1.5rem;
-      }
+
+
 }
-header h1{
-    font-size: 3rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-

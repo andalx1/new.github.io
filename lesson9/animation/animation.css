@@ -1,0 +1,47 @@
+* {
+    background-image: url('images/ddd.jpg');
+    background-size: cover;
+    font-family: 'Frijole', cursive;
+    text-align: center;
+}
+.sup9 {
+    background: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 7%;
+    padding: 1rem;
+    margin: 150px;
+    color: white;
+    position:absolute;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+
+  }
+  
+  @keyframes animar{
+      
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 30rem;
+        top: 0rem;
+    }
+    50% {
+        top: 25rem;
+        left: 20rem;
+    }
+    75%{
+        top: 10rem;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+  }
+  
