@@ -1,0 +1,130 @@
+body {
+    padding-top: 1rem;
+    margin:0 auto;
+    text-align: center;
+    font-family: "Rajdhani";
+  }
+  header {
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(120, 167, 27);
+  }
+  header h1{
+    font-size: 4rem;
+    line-height: 0rem;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+  header img {
+    width: 13rem;
+    }
+    .moto {
+    font-size: 1.7rem;
+    color: blue;
+    }
+
+
+  
+
+  header nav {
+      background: rgba(250, 193, 7, 0.973);
+      margin: 1.2rem auto;
+      width:100%;
+  }
+  .menu_bar{
+    display: none;
+}
+ header nav ul{
+     overflow: hidden;
+     list-style: none;
+ }
+  header nav ul li{
+      float:auto;
+  }
+ 
+ header nav ul li {
+      color:rgb(255, 188, 4);
+      padding: 20px;
+      display: inline-block;    
+  }
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+header nav ul li span{
+    margin-right: 10px;
+}
+header nav ul li a:hover{
+    background: #e7a821;
+}
+.mymenu a.active {
+    background-color: #e7a821;
+    padding: 20px;
+  }
+    
+  @media screen and (max-width: 800px) {
+   header nav {
+       width: 100%;
+       height:100%;
+       margin: 0;
+       position: fixed;
+   }
+   header nav ul li {
+       display: block;
+       float: none;
+       border-bottom:1px rgb(120, 167, 27)
+   }
+}
+.menu_bar {
+    display: block;
+    width: 100%;
+    background:rgba(250, 193, 7, 0.973)
+
+}
+.menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    background:rgba(250, 193, 7, 0.973)
+}
+
+
+@media screen and (max-width: 576px) {
+  
+
+
+
+}
+ 
+
+
+
+
+/*footer {
+    background: black;
+    padding: 1.2rem;
+    position: relative;
+  }
+  footer img{
+    top: 1.2rem;
+    right: 1.2rem;
+    position: absolute;
+    width: 18rem;
+  }
+  .footinf {
+    text-align: auto;
+    padding: 0.8rem;
+    color:rgb(245, 242, 242);
+  }
+    
+  .sta {
+    padding: 0.8rem;
+    color: black;
+  }
+  
+  .social img {
+    width: 5rem;
+    right: 25rem;
+    top: 5rem;
+    position: absolute;
+  } 
+ 
