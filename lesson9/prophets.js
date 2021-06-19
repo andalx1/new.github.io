@@ -1,13 +1,26 @@
-var contenido = document.querySelector('#contenido')
-function traer() {
-    fetch('https://randomuser.me/api/')
-    .then(rex => rex.json())
-    .then(data => {
-        console.log(data.results['0'])
-        contenido.innerHTML =`
-        <img src="${data.results['0'].picture.large}" width="100px" class="img-fluid rounded-circle">
-        <p>Nombre:${data.results['0'].name.last}</p>
-        `
-        
-    })
-}
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+   //console.table(jsonObject);  // temporary checking for valid response and data parsing
+   const prophets = jsonObject['prophets'];
+
+   for (let i = 0; i < prophets.length; i++ ) {
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let img = document.createElement('img');
+    
+    h2.innerHTML = `${prophets[i].name} ${prophets[i].lastname}`;
+    img.setAttribute('src', prophets[i].imageurl);
+    img.setAttribute('alt', `The official portrait of ${prophets[i].name} ${prophets[i].lastname}!`);
+    
+
+    card.append(h2);
+    card.append(img);
+    
+    document.querySelector('div.cards').append(card);
+   }
+
+});

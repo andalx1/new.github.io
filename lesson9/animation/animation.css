@@ -1,34 +1,29 @@
-* {
+body {
     background-image: url('images/ddd.jpg');
     background-size: cover;
     font-family: 'Frijole', cursive;
     text-align: center;
 }
-.sup9 {
-    background: transparent;
+.sup {
     width: 150px;
     height: 150px;
-    border-radius: 7%;
-    padding: 1rem;
-    margin: 150px;
-    color: white;
+    margin: 120px;
     position:absolute;
-    animation-name: animar;
+    animation-name: super;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:ease;
   }
   
-  @keyframes animar{
+  @keyframes super{
       
     0% {
         left: 0;
         top: 0;
     }
     25% {
-        left: 30rem;
+        left: 70rem;
         top: 0rem;
     }
     50% {
