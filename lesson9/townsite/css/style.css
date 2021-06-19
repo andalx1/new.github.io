@@ -87,7 +87,9 @@ header nav ul li a:hover{
     background:rgba(250, 193, 7, 0.973)
 }
 
-
+.icon-menu:before {
+    content: "\e9bd";
+  }
 @media screen and (max-width: 576px) {
   
 
