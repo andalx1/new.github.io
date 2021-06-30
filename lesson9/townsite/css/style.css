@@ -62,7 +62,36 @@
       cursor: pointer;
       display: none;
     }
-    
+    main {
+      font-family: 'Kanit', sans-serif;
+      max-width: 1000px;
+      margin : auto;
+      line-height: 20px;
+      text-align: left;
+      color:rgb(120, 167, 27);
+      display: grid;
+      grid-template-rows: 50px 300px 50px 160px 300px 300px;
+      grid-gap: 10px;
+    }
+    picture img {
+      width: 100%;
+    }
+    .landscape{
+      position: relative;
+    }
   
+    .summary {
+      color:black;
+      line-height: 2px;
+      position: absolute;
+      top: 20px;
+      left: 1rem;
+      background: radial-gradient(rgb(245, 242, 242), #f7f6f4);
+      border: 1px solid #000;
+      padding: 10px;
+      box-shadow: 0 0 30px #333;
+      opacity: .9;
+    }
+    
   
     
