@@ -5,37 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strom Center</title>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/script.js">
-    <link rel="stylesheet" href="js/menu.js">
+    <link rel="stylesheet" href="css/small.css">   
     <link rel="stylesheet" href="fonts.css">
+    <script src="https://kit.fontawesome.com/9d41b99d59.js" crossorigin="anonymous"></script>
+    <script defer src="js/scripts.js"></script>
 </head>
 
 <body>
         <header>
-            <img class= pic1 src="images/logo2.png"/>
-            <div class="headings">
-                <h1>SUNNYGUIDE</h1>
-                <div class="moto">We always give the best advice</div>
+            <div class="pic">
+                <img  src="images/logo2.png"/>
             </div>
+            <div class="titulo"><h1>SUNNYGUIDE</h1></div>
+            <div class="moto">We always give the best advice</div>
 
 
-            <div class="menu_bar">
-                <a href="#" class="bt-menu"><span class="icon-menu3"></span></a>
-                <nav class="mymenu">
-                    <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="#">Preston</a></li>
-                        <li><a href="#">Soda Springs</a></li>
-                        <li><a href="#">Fish Haven</a></li>
-                        <li><a class= "active" href="#">Storm Center</a></li>
-                        <li><a href="#">Gallery</a> </li> 
-                    </ul>
-                </nav>
-            </div>  
-        
+            <nav class="nav">
+                <button class="toogle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu ">
+                    <li><a Class="link link_active" href="/index.html">Home</a></li>
+                    <li><a Class="link" href="#">Preston</a></li>
+                    <li><a Class="link" href="#">Soda Springs</a></li>
+                    <li><a Class="link" href="#">Fish Haven</a></li>
+                    <li><a Class="link" href="#">Storm Center</a></li>
+                    <li><a Class="link" href="#">Gallery</a> </li> 
+                </ul>
+            </nav>
         </header>
           
 
@@ -46,6 +47,5 @@
         </footer>
     </div>
    <script src="http://code.jquery.com/jquery-latest.js"></script>
-   <script src="js/menu.js"></script>
 </body>
 </html>
