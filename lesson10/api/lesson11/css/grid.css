@@ -1,31 +1,32 @@
 .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: 20rem 6rem 75rem 50rem 30rem 30rem;
     grid-gap: 10px;
-    grid-template-areas:"header      header     header"
-                        "landscape  landscape   landscape"
-                        "sidebar-1   widgets    sidebar-2"
-                        "footer     footer      footer";
-                        
-
+    grid-template-areas:"header      header      header"
+                        "nav         nav         nav"
+                        "landscape   landscape   landscape"
+                        "contenido   contenido   contenido"
+                        "article     article     imaart"
+                        "footer      footer      footer";
 }
 .contenedor .header {
     background: rgb(253, 253, 253);
-    grid-column-start: header;
-    grid-column-end: header;
+    grid-area: header;
+}
+.contenedor .nav {
+    grid-area: nav;
 }
 .contenedor .landscape {
-    background: violet;
     grid-area: landscape;
 }
 .contenedor .contenido{
     background: yellow;
     grid-area:contenido;
 }
-.contenedor .widgets{
+.contenedor .article{
     background: rgb(82, 44, 147);
-    grid-area:widgets;
+    grid-area:article;
 }
 .contenedor .sidebar-2{
     background: rgb(132, 199, 204);
