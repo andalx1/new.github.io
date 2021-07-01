@@ -1,8 +1,7 @@
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 20rem 6rem 75rem 50rem 30rem 30rem;
-    grid-gap: 10px;
+    grid-template-columns: 600px 300px 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas:"header      header      header"
                         "nav         nav         nav"
                         "landscape   landscape   landscape"
@@ -11,7 +10,7 @@
                         "footer      footer      footer";
 }
 .contenedor .header {
-    background: rgb(253, 253, 253);
+    background: white;
     grid-area: header;
 }
 .contenedor .nav {
@@ -21,18 +20,17 @@
     grid-area: landscape;
 }
 .contenedor .contenido{
-    background: yellow;
     grid-area:contenido;
 }
 .contenedor .article{
     background: rgb(82, 44, 147);
     grid-area:article;
 }
-.contenedor .sidebar-2{
+.contenedor .imaart{
     background: rgb(132, 199, 204);
-    grid-area:sidebar-2;
+    grid-area:imaart;
 }
 .contenedor .footer{
-    background: yellow;
+    background: rgb(5, 5, 5);
     grid-area:footer;
 }

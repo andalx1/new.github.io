@@ -4,16 +4,15 @@
 }
 
 .contenedor {
-    background:white;
-    color: black;
-    font-family: 'Kanit', sans-serif;
+  display: block;
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
 }
-.header p {
-    font-size: 50px;
-    text-align: center;
-    padding: 20px 0;
-    color: rgb(120, 167, 27);
-
+.header {
+  line-height: 50px;
 }
 .pic img {
     padding-top: 1rem;
@@ -21,6 +20,7 @@
   }
   .titulo {
     font-size: 2rem;
+    color: rgb(120, 167, 27);
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
   }
   .moto {
@@ -29,19 +29,7 @@
     padding-bottom: 1rem;
     } 
    
-.contenedor {
-   width:100%;
-   margin: auto;
-   font-size: 50px;
-   line-height: 50px;
-   text-align: center;
-}
-.contenedor{
-    display: block;
-    color: rgb(120, 167, 27);
-    background: rgb(183, 183, 202);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, .25);
-}
+
 .nav {
     background-color: #f7b425;
     height: 80px;
@@ -86,13 +74,34 @@
   }
 .landscape{
     width: 70%;
-    Margin:auto;
+    margin: auto;
+    padding: 0;
 }
-.landscape picture img {
+picture img {
   width: 100%;
+
 }
 .contenido {
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+}
+.five{
+  text-align: left;
+  padding-left: 20px;
+}
+.fived{
+  width: 50%;
+  box-shadow: 5px 5px 10px;
+}
+.article{
+  margin-left: 300px;
+  padding:30px;
   
+}
+.imaart {
+  margin-right: 300px;
+
 }
 
 
