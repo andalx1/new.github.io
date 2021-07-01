@@ -49,7 +49,7 @@
     color: white;
     text-decoration: none;
     font-size: 18px;
-    margin: 0px 7px;
+    margin: 0px 37px;
     line-height: 80px;
     text-transform: uppercase;
     width: max-content;
@@ -79,7 +79,6 @@
 }
 picture img {
   width: 100%;
-
 }
 .contenido {
   width: 70%;
@@ -101,7 +100,9 @@ picture img {
 }
 .imaart {
   margin-right: 300px;
-
+}
+.ima img {
+  width: 100%;
 }
 
 

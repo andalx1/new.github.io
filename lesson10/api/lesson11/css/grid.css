@@ -23,7 +23,7 @@
     grid-area:contenido;
 }
 .contenedor .article{
-    background: rgb(82, 44, 147);
+    background-color: #f7b425;
     grid-area:article;
 }
 .contenedor .imaart{
