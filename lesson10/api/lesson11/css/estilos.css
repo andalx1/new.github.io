@@ -4,6 +4,7 @@
 }
 
 .contenedor {
+  background: rgb(27, 115, 91);
   display: block;
   color: black;
   font-family: 'Kanit', sans-serif;
@@ -46,9 +47,9 @@
     justify-content: center;
   }
   .link {
-    color: white;
+    color: rgb(27, 115, 91);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     margin: 0px 37px;
     line-height: 80px;
     text-transform: uppercase;
@@ -58,7 +59,7 @@
 
   .link:hover, .link_active {
     background: none;
-    color: rgb(108, 100, 23);   
+    color: white;   
   }
   
   /* TOGGLE */
@@ -73,7 +74,7 @@
     display: none;
   }
 .landscape{
-    width: 70%;
+    width: 100%;
     margin: auto;
     padding: 0;
 }
@@ -81,9 +82,10 @@ picture img {
   width: 100%;
 }
 .contenido {
-  width: 70%;
+  color: #f7b425;
+  width: 100%;
   margin: auto;
-  padding: 50px;
+  padding: 40px 0;
 }
 .five{
   text-align: left;
@@ -91,22 +93,28 @@ picture img {
 }
 .fived{
   width: 50%;
-  box-shadow: 5px 5px 10px;
+  box-shadow: 5px 5px 10px black;
 }
 .article{
-  margin-left: 300px;
-  padding:30px;
-  
+  color: #f7b425;
+  padding: 30px;
+  font-size: 20px;
 }
 .imaart {
-  margin-right: 300px;
+width: 100%;
 }
 .ima img {
   width: 100%;
 }
+.footer{
+  width: 100%;
+  margin:auto;
+  padding: 3rem 0;
+}
+@media (max-width: 900px) {
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
       
     body {
       padding-top: 0px;
