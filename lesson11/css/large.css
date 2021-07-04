@@ -6,11 +6,15 @@
 .contenedor {
   background: rgb(27, 115, 91);
   display: block;
-  color: black;
+  color: #f7b425;
   font-family: 'Kanit', sans-serif;
   margin: auto;
   font-size: 20px;
   text-align: center;
+}
+.home, .town {
+  padding: 30px;
+  text-align: left;
 }
 .header {
   line-height: 50px;
