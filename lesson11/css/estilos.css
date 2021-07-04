@@ -78,7 +78,7 @@
     margin: auto;
     padding: 0;
 }
-picture img {
+.land img {
   width: 100%;
   height:30rem;
 }
@@ -99,7 +99,7 @@ picture img {
 .article{
   color: #f7b425;
   padding: 20px;
-  font-size: 15px;
+  font-size: 18px;
 }
 .imaart {
 width: 100%;
@@ -122,7 +122,7 @@ width: 100%;
                       "nav         nav     nav         nav         nav"
                       "space   landscape   landscape   landscape     space1"
                       "space   contenido   contenido   contenido    space1"
-                      "space   article     imaart     imaart    space1"
+                      "space   article     article     imaart    space1"
                       "space   footer      footer      footer    space1";
 }
 .contenedor .header {
@@ -149,7 +149,7 @@ width: 100%;
   grid-area:article;
 }
 .contenedor .imaart{
-  background: rgb(60, 125, 41);
+  background: rgb(255, 255, 254);
   grid-area:imaart;
 }
 .contenedor .footer{
@@ -206,6 +206,19 @@ width: 100%;
     list-style: none;
     justify-content: center;
   }
+  .ima img{
+    width:100%;
+    height: 25rem;
+  }
+  .imaart{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  
  
   .contenedor {
     display: grid;
@@ -227,7 +240,7 @@ width: 100%;
 }
 }
 
-
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 @media (max-width: 600px) {
       
     body {
@@ -279,7 +292,7 @@ width: 100%;
       left: 0;
     }
   
-    nav .toggle:focus:not(:focus-visible) {
+    nav .toogle:focus:not(:focus-visible) {
       outline: none;
     }
   }
