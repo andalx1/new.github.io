@@ -16,6 +16,10 @@
   padding: 30px;
   text-align: left;
 }
+.cielo img{
+  width: 100%;
+
+}
 .header {
   line-height: 50px;
 }
