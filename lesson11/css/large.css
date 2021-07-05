@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.contenedor, .contenedor1 {
+.contenedor, .contenedor1, .contenedorg {
   background: rgb(27, 115, 91);
   display: block;
   color: #f7b425;
@@ -337,4 +337,78 @@ color: rgb(21, 84, 28);
 }
 .home {
   padding: 4rem;
+}
+/*grid de gallery html xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.contenedorg {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 20% 1fr 1fr 1fr 20%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:"header     header   header      header      header"
+                      "nav         nav     nav         nav         nav"
+                      "space   ima1   ima2   ima3     space1"
+                      "space   ima4   ima5   ima6    space1"
+                      "space   ima7   ima8   ima9    space1"
+                      "space   footer      footer      footer    space1";
+}
+.contenedorg .header {
+  background: white;
+  grid-area: header;
+}
+.contenedorg .nav {
+  grid-area: nav;
+}
+.contenedorg .space {
+  grid-area: space;
+}
+.contenedorg .space1 {
+  grid-area: space;
+}
+.contenedorg .ima1 {
+  grid-area: ima1;
+}
+.contenedorg .ima2 {
+  grid-area: ima2;
+}
+.contenedorg .ima3{
+  grid-area:ima3;
+}
+.contenedorg .ima4 {
+  grid-area: ima4;
+}
+.contenedorg .ima5 {
+  grid-area: ima5;
+}
+.contenedorg .ima6{
+  grid-area:ima6;
+}
+.contenedorg .ima7 {
+  grid-area: ima7;
+}
+.contenedorg .ima8 {
+  grid-area: ima8;
+}
+.contenedorg .ima9{
+  grid-area:ima9;
+}
+.contenedorg .footer{
+  background: rgb(5, 5, 5);
+  color: white;
+  grid-area:footer;
+}
+.ima1, .ima2, .ima3, .ima4, .ima5, .ima6, .ima7, .ima8, .ima9{
+  background: white;
+  padding: .2rem;
+  border-radius: 1rem;
+}
+.galima img {
+  width: 100%;
+  height: 17rem;
+  border-radius: 1rem;
+
+}
+.titgal {
+  padding: 2rem;
+  color: rgb(27, 115, 91);
+  font-size: 1.5rem;
 }
