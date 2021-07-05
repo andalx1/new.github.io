@@ -148,6 +148,25 @@ color: rgb(21, 84, 28);
   margin:auto;
   padding: 3rem 0;
 }
+.form fieldset{
+  background: rgb(100, 97, 97);
+}
+.form li{
+  list-style-type: none;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+.form input{
+  font-size: 1.5rem;
+}
+.landscape h1 {
+  text-align: left;
+  padding: 3rem;
+}
+.landscape h3{
+  text-align: left;
+  font-size: 0rem;
+}
 /*grid de preston html xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .contenedor {
   display: grid;
