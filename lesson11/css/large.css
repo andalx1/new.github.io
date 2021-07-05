@@ -20,10 +20,6 @@
   width: 100%;
 
 }
-.town1, .town2, .town3{
-
-
-}
 .header {
   line-height: 50px;
 }
@@ -89,6 +85,27 @@
     width: 100%;
     margin: auto;
     padding: 0;
+    position: relative;
+}
+.summary{
+  opacity: .7 ;
+  color: black;
+  width: 20rem;
+  font-size: 1.5rem;
+  right: 4rem;
+  top: 4rem;
+  border-radius: 1rem;
+  background: rgb(168, 194, 194);
+  position: absolute;
+  padding: 2px;
+}
+.wesum {
+  opacity: none;
+  color: rgb(27, 115, 91);
+  font-size: 2rem;
+  background: #f7b425;
+  padding: .5rem;
+  border-radius: 1rem;
 }
 .land img {
   width: 100%;
@@ -103,10 +120,13 @@
 .five{
   text-align: left;
   padding-left: 20px;
+  padding-bottom: 3rem;
 }
 .fived{
-  width: 50%;
-  box-shadow: 5px 5px 10px black;
+  width: 90%;
+  box-shadow: 1px 1px 12px rgb(72, 73, 72);
+  border-radius: .5rem;
+
 }
 .article{
   color: #f7b425;
@@ -115,9 +135,13 @@
 }
 .imaart {
 width: 100%;
+box-shadow: 1px 1px 18px rgb(67, 68, 66);
+border-radius: .5rem;
+color: rgb(21, 84, 28);
 }
 .ima img {
   width: 100%;
+  border-radius: .5rem;
 }
 .footer{
   width: 100%;
@@ -182,7 +206,7 @@ width: 100%;
                       "space   town1   town2   town3    space1"
                       "space   acti    acti   acti   space1"
                       "space   acti1   acti2   acti3    space1"
-                      "space   footer      footer      footer    space1";
+                      "space   map      footer      footer    space1";
 }
 .contenedor1 .header {
   background: white;
@@ -231,6 +255,10 @@ width: 100%;
   background: rgb(255, 255, 254);
   grid-area:imaart;
 }
+.contenedor1 .map{
+  background: rgb(5, 5, 5);
+  grid-area:map;
+}
 .contenedor1 .footer{
   background: rgb(5, 5, 5);
   color: white;
@@ -239,157 +267,53 @@ width: 100%;
 
 .town1, .town2, .town3, .acti1, .acti2, .acti3 {
   color: rgb(27, 115, 91);
-  padding: px;
   background: white;
   border-radius: .3rem;
   line-height: 2rem;
+  margin-bottom: 3rem;
 }
 .townfot1, .townfot2, .townfot3{
   width: 100%;
   height: 50%;
   border-radius: .3rem 0;
 }
+.tofot1, .tofot2, .tofot3{
+  width: 100%;
+  height: 60%;
+  border-radius: .3rem 0;
+}
 .towninf, .acti {
-  padding: 1.5rem;
+  padding: 3.5rem;
   display: flex;
 }
-
-
-/*ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
-@media (max-width: 1000px) {
-  menu {
-    margin:0;
-    padding: 0;
-  }
-  header {
-    height: 60px;
-  }
-  .titulo{
-    font-size: 1.5rem;
-  }
-  .pic img {
-    padding-top: 1rem;
-    width: 14rem;
-  }
-  .moto{
-    font-size: 1.2rem;
-  }
-  .nav {
-    background-color: #f7b425;
-    height: 80px;
-    width: 100%;
-   /* top: 60px;*/
-   /* left: 0;*/
-    /*display: flex;*/
-    /*align-content:center;*/
-  }
-  .link {
-    font-size: 15px;
-    color: rgb(27, 115, 91);
-    text-decoration: none;
-    margin: 0px 10px;
-    line-height: 80px;
-    text-transform: uppercase;
-    width: max-content;
-    padding: 6px 9px;
-  }
-  .link:hover, .link_active {
-    background: none;
-    color: white;   
-  }
- .nav .nav-menu {
-    display: flex;
-    /*margin-right: 40px;*/
-    list-style: none;
-    justify-content: center;
-  }
-  .ima img{
-    width:100%;
-    height: 25rem;
-  }
-  .imaart{
-    width:80%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-  }
-  
- 
-  .contenedor {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: repeat(7, auto);
-    grid-template-areas:"header     header   header"
-                        "nav         nav     nav"
-                        "landscape   landscape   landscape"
-                        "contenido   contenido   contenido"
-                        "article     article     article"
-                        "imaart   imaart   imaart"
-
-                        "footer      footer      footer";
+.mapfot{
+  width:85%;  
 }
-
-.contenedor .landscape {
-  grid-area: landscape;
+.map{
+  padding: 2rem;
+  margin-right: -1rem;
 }
+.anuncio{
+  color: black;
+  width: 50rem;
+  font-size: 3.3rem;
+  position: absolute;
+  font-family: 'Festive', cursive;
+  right: 5rem;
+  top: 13rem;
+  text-shadow:4px 5px 10px white;
+  border-radius: 1rem;
 }
-
-/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
-@media (max-width: 600px) {
-      
-    body {
-      padding-top: 0px;
-    }
-    header {
-      height: 60px;
-    }
-    .titulo{
-      font-size: 1.5rem;
-    }
-    .pic img {
-      padding-top: 1rem;
-      width: 14rem;
-    }
-    .moto{
-      font-size: 1.2rem;
-    }
-    .nav-menu {
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-      background-color: #2c3e50;
-      position: fixed;
-      left: 0;
-      top: 340px;
-      width: 100%;
-      padding: 20px 0;
-      height: calc(52% - 60px);
-      overflow-y: auto;
-      left: 100%;
-      transition: left 0.3s;
-    }
-  
-    .link {
-      line-height: 60px;
-    }
-  
-    .link:hover,
-    .link_active {
-      background: none;
-      color: rgb(181, 169, 169);
-    }
-  
-    .nav .toogle {
-      display: block;
-    }
-    .nav-menu_visible {
-      left: 0;
-    }
-  
-    nav .toogle:focus:not(:focus-visible) {
-      outline: none;
-    }
-  }
+.join{
+  padding: .7rem;
+  border-radius: 1rem;
+  background: rgb(81, 75, 75);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: none;
+}
+.home {
+  padding: 4rem;
+}
